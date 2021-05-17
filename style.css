@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .backgr{
+    width: 100%;
     background-image: url("./resources/469227.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
