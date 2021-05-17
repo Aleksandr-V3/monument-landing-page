@@ -155,4 +155,7 @@ footer{
     font-size : 14px ;}
   p{
     font-size : 16px ;}
+  .scr-4{
+    display: block ;
+}
 }
