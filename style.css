@@ -3,15 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-.backgr{
-    width: 100%;
-    background-image: url("./resources/469227.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
 header {
-    
+    background-image:linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.5)), url("./resources/469227.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
     color: #fff;
     height: 100vh;
     display: flex;
