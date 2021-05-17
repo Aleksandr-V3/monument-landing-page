@@ -3,10 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-header {
+body{
     background-image:linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.5)), url("./resources/469227.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    background-attachment: fixed;
+}
+header {
     color: #fff;
     height: 100vh;
     display: flex;
@@ -24,7 +27,7 @@ header {
     margin: 100px auto;
 }
 h1{
-    font-size: 54px;
+    font-size: 3.5em;
     color: #fff;
 }
 .left-part h1, 
@@ -79,8 +82,12 @@ nav ul li,
 
 }
 .scr-2,
-.scr-3{
+.scr-3,
+.scr-4{
     padding: 150px 50px;
+    background: rgba(255,255,255,0.7);
+    justify-content: center;
+    align-items: center;
 }
 main{
     background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1));
@@ -89,13 +96,13 @@ main{
 }
  p{
     padding: 10px 100px;
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: 300;
 }
 h2 {
     padding: 25px;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 3em;
     margin-left: -25px;
 }
 a{
@@ -110,6 +117,7 @@ a{
 }
 .lines{
     display:flex;
+    background: rgba(255,255,255,0.7);
 }
 .line{
     border-top: #000 dotted;
@@ -135,7 +143,7 @@ footer{
     border-radius: 30px;
     background: rgb(100, 109, 236);
     color: #000 !important;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin: 50px 0;
 }
@@ -146,17 +154,26 @@ footer{
     margin-top: 150px;
     margin-bottom: 150px;
 }
-
-@media only screen and (max-width: 600px) {
-  body {
+img{
+    width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .scr-2,  .scr-3,  .scr-4 {
     margin: 0;
   }
-  h2{
-    font-size : 14px ;}
   p{
-    font-size : 16px ;}
+      padding: 15px 0;
+  }
+  h2{
+    font-size :2em ;}
+  p{
+    font-size : 1em ;}
   header,
   .scr-4{
     display: block ;
-}
+  }
+  #btn1, #btn2,#btn3{
+    margin: 10px auto;
+    }    
+
 }
